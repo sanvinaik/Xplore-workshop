@@ -3,9 +3,9 @@
 # bonus, can you reduce ladder to a one liner?
 age = int(input("Enter age")) # ahh yes age is str , definitely
 
-if age <= 0:
+if age < 18:
     print("Lil bro")
-elif age > 100:
+elif age < 60: # we gotta pay taxes man :(
     print("Pay up taxes, person")
 else:
     print("U still good, unc?")
